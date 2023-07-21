@@ -1,3 +1,4 @@
-List Pesert:
+List Peserta:
 
-1. Fahmi
+1. Ilham Insan Wafi
+2. Fahmi
