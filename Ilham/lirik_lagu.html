@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lirik Lagu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Lirik Lagu</h1>
+  </header>
+
+  <main>
+    <section class="lyrics-form">
+      <h2>Tambahkan Lirik Lagu Baru</h2>
+      <form id="lyrics-form">
+
+        <div class="form-group">
+          <label for="song-title">Judul Lagu:</label>
+          <input type="text" id="song-title" name="song-title" required>
+        </div>
+
+        <div class="form-group">
+          <label for="artist">Artis:</label>
+          <input type="text" id="artist" name="artist" required>
+        </div>
+
+        <div class="form-group">
+          <label for="lyrics">Lirik:</label>
+          <textarea id="lyrics" name="lyrics" rows="10" required></textarea>
+        </div>
+
+        <button type="submit">Simpan</button>
+      </form>
+    </section>
+
+    <section class="search-section">
+      <h2>Pencarian Lirik Lagu</h2>
+      <form id="lyrics-search-form">
+
+        <div class="form-group">
+          <label for="search-keyword">Kata Kunci Pencarian:</label>
+          <input type="text" id="search-keyword" name="search-keyword" required>
+        </div>
+
+        <button type="submit">Cari</button>
+      </form>
+    </section>
+
+    <section class="lyrics-list">
+      <h2>Daftar Lirik Lagu</h2>
+      <ul id="lyrics-list">
+
+        <!-- Daftar lirik lagu akan ditampilkan di sini -->
+        <li>
+          <h3>Indonesia Pusaka - Ismail Marzuki</h3>
+          <p>
+            Indonesia tanah air beta
+            Pusaka abadi nan jaya
+            Indonesia sejak dulu kala
+            Slalu dipuja-puja bangsa
+
+            Disana tempat lahir beta
+            Dibuai dibesarkan bunda
+            Tempat berlindung di hari tua
+            Sampai akhir menutup mata
+          </p>
+
+          <p><strong>Pencipta:</strong> Ismail Marzuki</p>
+
+        </li>
+
+        <li>
+
+        <h3>Indonesia Raya - W.R Supratman</h3>
+          <p>
+            Indonesia tanah airku
+            Tanah tumpah darahku
+            Di sanalah aku berdiri
+            Jadi pandu ibuku
+
+            Indonesia kebangsaanku
+            Bangsa dan tanah airku
+            Marilah kita berseru
+            Indonesia bersatu
+
+            Hiduplah tanahku
+            Hiduplah neg'riku
+            Bangsaku, rakyatku, semuanya
+            Bangunlah jiwanya
+            Bangunlah badannya
+            Untuk Indonesia Raya
+
+            (Reff)
+
+            Indonesia raya
+            Merdeka, merdeka
+            Tanahku, negeriku yang kucinta
+            Indonesia raya
+            Merdeka, merdeka
+            Hiduplah Indonesia raya
+          </p>
+
+          <p><strong>Pencipta:</strong> W.R Supratman</p>
+
+        </li>
+
+        <!-- Tambahkan lirik lagu lain sesuai format di atas -->
+      </ul>
+    </section>
+
+
+    
+
+
+  </main>
+
+</body>
+</html>
