@@ -1,0 +1,118 @@
+:root {
+  --pink: #3033ed;
+  --bg: #0a0a0a;
+  --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+  min-height: 2000px;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 7%;
+  background-color: rgba(1, 1, 1, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-style: italic;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/bismillah.png);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+}
+
+.hero h1,
+.hero h4,
+.hero p {
+  text-shadow: var(--shadow);
+}
+.hero h1 {
+  font-family: "sacramento", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.hero h4 {
+  font-family: "poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.hero p {
+  font-size: 1.4rem;
+  -webkit-text-stroke: 0.7px rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.hero a {
+  color: var(--pink);
+  background-color: white;
+  box-shadow: var(--shadow);
+}
+
+.hero a:hover {
+  background-color: var(--pink);
+  color: white;
+}
+
+/* media quary */
+/* Laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+  .countdown > .simply-section {
+    padding: 60px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 760px) {
+  html {
+    font-size: 60%;
+  }
+  .countdown > .simply-section {
+    padding: 50px;
+    margin: 5px;
+  }
+}
+
+/* Phone */
+@media (maxi-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  .countdown > .simply-section {
+    padding: 30px;
+    margin: 3px;
+    position: center;
+  }
+}
